@@ -1,11 +1,14 @@
 .App {
   text-align: center;
+  background: rgba(11,94,215, 0.09);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.active{
+  border-bottom: 2px solid #0b5ed7;
+  font-weight: bold;
+  color: #0b5ed7 !important;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -24,15 +27,16 @@
   color: white;
 }
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(25deg);
   }
+
 }

@@ -1,0 +1,13 @@
+
+.IconContainer{
+    display: flex;
+    width: auto;
+    padding-left: 15%;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+}
+.Icon {
+    height: 2rem;
+    margin-right: 2.rem;
+    cursor: pointer;
+}

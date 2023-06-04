@@ -1,0 +1,7 @@
+.cardDetail{
+ border: 1px solid black;
+ width: fit-content;
+ border-radius: 10px;
+ background: #1a1a1a30;
+ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+}
