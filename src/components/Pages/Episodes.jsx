@@ -5,7 +5,7 @@ import InputGroup from "../Filters/Category/InputGroup";
 const Episodes = () => {
   let [results, setResults] = React.useState([]);
   const [info, setInfo] = useState([]);
-  const { air_date, episode, name } = info;
+  const { air_date, name } = info;
   const [id, setID] = useState(1);
 
   const url = 'https://rickandmortyapi.com/api/episode/' 

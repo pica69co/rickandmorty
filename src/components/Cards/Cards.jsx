@@ -2,15 +2,13 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import styles from './Cards.module.scss'
 
-//1:20 joy shahab
-
 const Cards = ({results, page }) => {
   
     let display
     
     if(results){
         display = results?.map(x=>{
-            const { id, name, image, status, gender, location } = x
+            const { id, name, image, status, location } = x
             return (  
             <Link 
                 style={{ textDecoration: 'none'}}
