@@ -4,8 +4,6 @@ import style from "./Form.module.css";
 import { useState } from "react";
 import ReactModal from "react-modal";
 import validation from "../Form/validation";
-const { REACT_APP_TEMPLATE, REACT_APP_PUBLIC_ID, REACT_APP_SERVICE } =
-  process.env;
 
 const Contact = () => {
   useEffect(() => {
