@@ -10,7 +10,7 @@ const Episodes = () => {
 
   const url = 'https://rickandmortyapi.com/api/episode/' 
 
-  let api = `${url}${id}`;
+ let api = `${url}${id}`;
 
   useEffect(() => {
     (async function () {
